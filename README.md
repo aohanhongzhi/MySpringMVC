@@ -6,7 +6,7 @@
 1. 继承Servlet，并且实现下面步骤
 1. 加载配置文件，读取配置信息，Controller的包位置等。
 1. 从Controller包位置，读取Controller类的信息
-1. 从上一步的信息利用 `Class.forName()`加载Controller成为Java实例
+1. 从上一步的信息利用 `Class.forName()`反射来加载Controller成为Java实例
 1. 利用注解将url与method和class object对应起来，方便访问的时候查找
 1. 找到后利用反射来完成方法入参及调用实现
 ### 个人理解
